@@ -57,7 +57,7 @@ def hangman():
         hangman()
     
     if win:
-        input("\nYou got it! Congrats! How about another game? Pres ENTER to play again!")
+        input("\nYou got it! Congrats! How about another game? Press ENTER to play again!")
         start()
     
     if lives == 0:
